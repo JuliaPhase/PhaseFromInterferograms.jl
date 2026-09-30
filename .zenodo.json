@@ -1,0 +1,30 @@
+{
+  "title": "PhaseFromInterferograms.jl",
+  "upload_type": "software",
+  "description": "<p>Julia package for retrieving the phase from one or several interferograms, including phase-shifting and tilted-interferogram algorithms, tilt estimation, and Fourier-based harmonic finding.</p>",
+  "creators": [
+    {
+      "name": "Soloviev, Oleg",
+      "affiliation": "Flexible Optical B.V. (OKO Technologies)",
+      "orcid": "0000-0003-3761-9192"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "0.1.0",
+  "keywords": [
+    "interferometry",
+    "phase retrieval",
+    "phase-shifting interferometry",
+    "wavefront",
+    "Julia"
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::826589"
+    },
+    {
+      "id": "10.13039/501100000780::101111948"
+    }
+  ]
+}
