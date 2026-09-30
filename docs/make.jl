@@ -18,13 +18,13 @@ end
 makedocs(;
     modules=[PhaseFromInterferograms],
     authors="Oleg Soloviev",
-    repo="https://github.com/olejorik/PhaseFromInterferograms.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/JuliaPhase/PhaseFromInterferograms.jl/blob/{commit}{path}#L{line}",
     sitename="PhaseFromInterferograms.jl",
     # doctest=:fix,
     checkdocs=:exports,
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://olejorik.github.io/PhaseFromInterferograms.jl",
+        canonical="https://juliaphase.github.io/PhaseFromInterferograms.jl",
         assets=String[],
     ),
     clean=false,
@@ -33,4 +33,4 @@ makedocs(;
     ],
 )
 
-deploydocs(; repo="github.com/olejorik/PhaseFromInterferograms.jl")
+deploydocs(; repo="github.com/JuliaPhase/PhaseFromInterferograms.jl")

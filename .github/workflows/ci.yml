@@ -38,7 +38,7 @@ jobs:
         run: |
           julia --project -e '
             using Pkg
-            Pkg.add(url = "https://github.com/olejorik/PhaseUtils.jl")
+            Pkg.add(url = "https://github.com/JuliaPhase/PhaseUtils.jl")
             Pkg.instantiate()'
       - uses: julia-actions/julia-buildpkg@latest
       - uses: julia-actions/julia-runtest@latest

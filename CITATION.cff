@@ -16,5 +16,5 @@ keywords:
   - "wavefront"
   - "Julia"
 license: MIT
-repository-code: "https://github.com/olejorik/PhaseFromInterferograms.jl"
+repository-code: "https://github.com/JuliaPhase/PhaseFromInterferograms.jl"
 version: "0.1.0"
