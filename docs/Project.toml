@@ -1,4 +1,5 @@
 [deps]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 FFTViews = "4f61f5a4-77b1-5117-aa51-3ab5ef4ef0cd"
@@ -13,3 +14,7 @@ PhaseUtils = "0a972ece-1c72-4cf4-81fb-1c0dc9b4cac1"
 PhaseFromInterferograms = {path = ".."}
 PhasePlots = {url = "https://github.com/JuliaPhase/PhasePlots.jl", rev = "main"}
 PhaseUtils = {url = "https://github.com/JuliaPhase/PhaseUtils.jl", rev = "main"}
+
+[compat]
+# Makie 0.24.15 breaks contour! on NaN-masked data (MakieOrg/Makie.jl#5812, fixed upstream, not released yet); remove the pin once a release with the fix is out
+Makie = "=0.24.14"
